@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#buoumao {
+	width: 1200px;
+	margin: 0 auto;
+}
+#header {
+	width: auto;
+	height: 60px;
+	background: #333333;
+}
+#header #nav li{
+	display: inline;
+	float: left;
+	line-height: 40px;
+	font-size: 20px;
+	padding: 10px;
+	padding-left: 50px;
+}
+#header #nav li a {
+	color: #ffffff;
+}
+#header #nav li a:hover {
+	color: red;
+	text-decoration: none;
+}
+#header #van li{
+	display: inline;
+	float: right;
+	line-height: 40px;
+	font-size: 16px;
+	padding: 10px;
+	padding-right: 50px;
+}
+#header #van li a {
+	color: #ffffff;
+}
+#header #van li a:hover {
+	color: red;
+	text-decoration: none;
+}
+#ppt ol { 
+	position: absolute; 
+	right: 5px; 
+	bottom: 5px; 
+	z-index: 99999; 
+}
+#ppt ol li { 
+	float: left; 
+	margin-right: 3px; 
+	display: inline; 
+	cursor: pointer; 
+	background: #fcf2cf; 
+	border: 1px solid #f47500; 
+	padding: 2px 6px; 
+	color: #d94b01; 
+	font-family: arial; 
+	font-size: 12px; 
+}
+#ppt .active { 
+	padding: 3px 8px; 
+	font-weight: bold; 
+	color: #ffffff; 
+	background: #ffb442; 
+	position: relative; 
+	bottom: 2px; 
+}
+#ppt ul {
+	width: auto;
+	height: 550px;
+	position: relative;
+}
+#ppt ul li {
+	position: absolute;
+	left: -360px;
+}
+#product {
+	width: 100%;
+	height: 295px;
+}
+#product ul {
+}
+#product ul li {
+	margin-top: 5px;
+	margin-left: 12px;
+	float: left;
+	opacity: 1;
+}
+#demoWF {
+	width: 100%;
+	height: 50px;
+	background: #FF4200;
+	text-align: center;
+}
+#demoWF p {
+	color: #FFF;
+	font-size: 20px;
+	line-height: 50px;
+	letter-spacing: 20px;
+}
+.waterfall {
+	width: 100%;
+	background: pink;
+	overflow: hidden;
+}
+.waterfall .falls {
+	float: left;
+}
+.waterfall .falls div img {
+	width: 290px;
+	margin: 5px;
+}
+.waterfall .falls div p {
+	width: 290px;
+	margin: 5px;
+	margin-bottom: 20px;
+}
